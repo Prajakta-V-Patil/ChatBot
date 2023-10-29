@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFC0CB; /* Light Pink background color */
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #FF69B4; /* Pink background color for chat container */
+    border: 1px solid #FF1493; /* Darker pink border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.chat-header {
+    background-color: #FF1493; /* Dark Pink background color for chat header */
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: 1px solid #FF69B4; /* Light Pink border for header */
+}
+
+.chat-body {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-message {
+    background-color: #FFC0CB; /* Light Pink background color for chat messages */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.bot-message {
+    text-align: left;
+}
+
+.user-message {
+    text-align: right;
+}
+
+.user-input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #FF69B4; /* Light Pink border for user input */
+    border-bottom: 1px solid #FF69B4; /* Light Pink border for user input */
+    font-size: 14px;
+    outline: none;
+    margin: 5px;
+}
+
+#send-button {
+    background-color: #FF1493; /* Dark Pink background color for the send button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 5px;
+}
